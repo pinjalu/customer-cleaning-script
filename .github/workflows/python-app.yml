@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Set up Python 3.10
@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install system dependencies (FFmpeg for av)
+      - name: Install system dependencies (FFmpeg for PyAV)
         run: |
           sudo apt-get update
           sudo apt-get install -y \
@@ -28,7 +28,7 @@ jobs:
             libavutil-dev \
             libavfilter-dev \
             libswscale-dev \
-            libavswresample-dev \
+            libswresample-dev \
             pkg-config \
             build-essential \
             python3-dev \
