@@ -1,5 +1,8 @@
 [phases.setup]
-aptPkgs = [
+runtime = "python-3.10.12"
+
+[phases.setup.aptPkgs]
+packages = [
   "ffmpeg",
   "libavformat-dev",
   "libavcodec-dev",
