@@ -18,7 +18,7 @@ asttokens==3.0.0
 astunparse==1.6.3
 async-timeout==4.0.3
 attrs==25.3.0
-av==14.4.0
+av<14
 babel==2.17.0
 backoff==2.2.1
 bbox_visualizer==0.2.2
@@ -402,4 +402,5 @@ yapf==0.43.0
 yarl==1.20.1
 zipp==3.23.0
 zstandard==0.23.0
+
 
