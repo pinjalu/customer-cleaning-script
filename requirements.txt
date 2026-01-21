@@ -352,7 +352,6 @@ tenacity==8.5.0
 tensorboard==2.20.0
 tensorboard-data-server==0.7.2
 tensorflow==2.20.0
-tensorflow-intel==2.16.2
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==3.1.0
 textblob==0.19.0
@@ -403,3 +402,4 @@ yapf==0.43.0
 yarl==1.20.1
 zipp==3.23.0
 zstandard==0.23.0
+
