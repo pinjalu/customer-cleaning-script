@@ -10,6 +10,9 @@ def parse_date(date_str: str, fmt: str = "%Y-%m-%d") -> datetime:
     """
     return datetime.strptime(date_str, fmt)
 
+def get_today():
+    return "FEATURE BRANCH VERSION"
+
 
 def days_ago(days: int) -> datetime:
     """
